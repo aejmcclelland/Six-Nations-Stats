@@ -78,7 +78,7 @@ public class sixNationsStats {
     }
 
     private static int parseIntWithDefault(String value, int defaultValue) {
-        if (value.isEmpty()) {
+        if (value.isEmpty()) {//handle where there is no field entry
             return defaultValue;
         }
         try {

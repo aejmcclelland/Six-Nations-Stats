@@ -26,8 +26,6 @@ public class Player {
         return country;
     }
 
-    // Add getters and setters for other fields as needed
-
     @Override
     public String toString() {
         return 
